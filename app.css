@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.pattern-carbon {
+    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0, linear-gradient(27deg, #222 5px, transparent 5px) 0 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+
+#login {
+    background-color: #131313;
+    color: #999;
+}
+
+#login-form {
+    width: 300px;
+}
+#login-form .form-control {
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+#login-form input[type=email] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#login-form input[type=password] {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
