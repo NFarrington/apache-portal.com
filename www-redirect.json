@@ -1,6 +1,0 @@
-{
-  "RedirectAllRequestsTo": {
-    "HostName": "apache-portal.com",
-    "Protocol": "https"
-  }
-}
