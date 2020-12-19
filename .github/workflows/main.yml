@@ -33,5 +33,5 @@ jobs:
           aws-region: us-east-1
         if: matrix.should_run
       - name: Deploy to ${{ matrix.environment }}
-        run: aws s3 sync --delete . s3://apache-portal-com-${{ matrix.environment }}-therailroad --exclude "*" --include "*.html" --include "*.svg" --include="*.css"
+        run: aws s3 sync --sse AES256 --delete . s3://apache-portal-com-${{ matrix.environment }}-therailroad --exclude "*" --include "*.html" --include "*.svg" --include="*.css"
         if: matrix.should_run
